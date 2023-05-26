@@ -4,7 +4,7 @@ import { FriendListWrapper } from './FriendList.styled';
 
 const FriendList = ({friends}) => {
     return (
-        <FriendListWrapper class="friend-list">
+        <FriendListWrapper>
             {friends.map(friend => (
                 <FriendListItem key={friend.id} avatar={friend.avatar} name={friend.name} isOnline={friend.isOnline} />)
             )}

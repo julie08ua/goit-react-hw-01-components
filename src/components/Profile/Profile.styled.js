@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const ProfileWrapper = styled.div`
+margin: 40px auto 0;
 width: 400px;
 border-radius: 15px;
 text-align: center;
