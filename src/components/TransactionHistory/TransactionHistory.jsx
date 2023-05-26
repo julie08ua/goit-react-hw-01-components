@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import {TransactionHistoryWrapper, TableHead} from './TransactionHistory.styled'
+import {TransactionHistoryWrapper} from './TransactionHistory.styled'
 
 const TransactionHistory = ({ items }) => {
     return (
