@@ -4,24 +4,24 @@ import {TransactionHistoryWrapper} from './TransactionHistory.styled'
 const TransactionHistory = ({ items }) => {
     return (
         <TransactionHistoryWrapper>
-      <thead>
-    <tr>
-      <th>Type</th>
-      <th>Amount</th>
-      <th>Currency</th>
-    </tr>
-  </thead>
+          <thead>
+            <tr>
+              <th>Type</th>
+              <th>Amount</th>
+              <th>Currency</th>
+            </tr>
+          </thead>
 
-  <tbody>
-    {items.map(item => (
-        <tr key={item.id}>
-      <td>{item.type}</td>
-      <td>{item.amount}</td>
-      <td>{item.currency}</td>
-    </tr>
-    ))}
-  </tbody>
-</TransactionHistoryWrapper>
+          <tbody>
+            {items.map(item => (
+              <tr key={item.id}>
+                <td>{item.type}</td>
+                <td>{item.amount}</td>
+                <td>{item.currency}</td>
+              </tr>
+            ))}
+          </tbody>
+        </TransactionHistoryWrapper>
     )
 }
 
